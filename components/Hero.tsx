@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <div id="home" className="relative h-[600px] flex items-center justify-center overflow-hidden">
+    <div id="home" className="relative h-[600px] flex items-center justify-center overflow-hidden scroll-mt-28">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 

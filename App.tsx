@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-braun-red selection:text-white">
       <Navbar />
-      <main>
+      <main className="pt-24">
         <Hero />
         <Services />
         <ContactForm />

@@ -46,7 +46,7 @@ export const ContactForm: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white relative">
+    <section id="contact" className="py-20 bg-white relative scroll-mt-28">
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
 
