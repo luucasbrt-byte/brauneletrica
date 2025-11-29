@@ -11,9 +11,3 @@ export interface QuoteRequest {
   vehicle: string;
   issue: string;
 }
-
-export interface AIResponse {
-  technicalSummary: string;
-  suggestedService: string;
-  whatsappMessage: string;
-}

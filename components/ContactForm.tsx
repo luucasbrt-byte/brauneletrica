@@ -39,7 +39,7 @@ export const ContactForm: React.FC = () => {
       `*Veículo:* ${formData.vehicle}\n` +
       `*Problema:* ${formData.issue}`;
 
-    const phoneNumber = "555134884561"; // 55 (BR) + 51 (DDD) + Number
+    const phoneNumber = "555195152973"; // 55 (BR) + 51 (DDD) + Number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank');
