@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Phone } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 export const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({

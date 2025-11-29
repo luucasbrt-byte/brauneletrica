@@ -1,7 +1,6 @@
 import React from 'react';
 import { Wrench, Droplet, Snowflake, Speaker, Shield, Zap } from 'lucide-react';
 import { SERVICES_LIST } from '../constants';
-import { ServiceItem } from '../types';
 
 const iconMap = {
   Wrench: Wrench,
